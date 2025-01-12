@@ -1,0 +1,83 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #1A1A40  ;
+    color: #F4E8FF  ;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px;
+}
+
+li {
+    /* padding:10px; */
+    margin-top: 10px;
+    font-size: large;
+}
+
+.row-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#deleteBtn {
+    /* background-color: red; */
+    color:red;
+    /* margin-top: 12px; */
+    border: none;
+    background: none;
+    font-size: x-large;
+    cursor: pointer;
+    /* padding: 7px; */
+}
+
+
+#listDiv {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    
+    width: 200px;
+}
+
+#text {
+    width: 200px;
+    height: 25px;
+    font-size: medium;
+    border: none;
+    outline: none;
+    padding: 5px;
+    border-radius: 6px;
+    margin-bottom: 6px;
+    
+}
+
+
+#addBtn {
+    border: none;
+    padding: 10px;
+    height:35px;
+    width: 35px;
+    background: lightseagreen;
+    font-size: x-large;
+    margin-left: 10px;
+    border-radius: 50%;
+    color:white ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
