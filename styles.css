@@ -45,12 +45,11 @@ li {
     display: flex;
     align-items: baseline;
     justify-content: space-between;
-    
-    width: 200px;
+    width: 260px;
 }
 
 #text {
-    width: 230px;
+    width: 250px;
     height: 25px;
     font-size: medium;
     border: none;
