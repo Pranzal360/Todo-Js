@@ -1,6 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family: 'Poppins', sans-serif;
 }
 
 body {
@@ -49,7 +50,7 @@ li {
 }
 
 #text {
-    width: 200px;
+    width: 230px;
     height: 25px;
     font-size: medium;
     border: none;
